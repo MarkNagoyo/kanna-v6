@@ -1,0 +1,83 @@
+{
+  "name": "Kanna DEV",
+  "description": "Amir is gay!",
+  "version": "6.0.7",
+  "manifest_version": 3,
+    
+  "content_scripts": [
+    {
+      "matches": ["https://blackdragon.mobi/maps/view/*"],
+      "js": ["Logic/Map/View/ViewMap.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/maps/change/*"],
+      "js": ["Logic/Map/Change/ChangeMap.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/battles/attackUnit/*"],
+      "js": ["Logic/Enemies/Attack/AttackEnemy.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/units/view/*"],
+      "js": ["Logic/Enemies/View/ViewEnemy.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/items/index/*"],
+      "js": ["Logic/Inventory/View/ViewInventory.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/buildings/view/*"],
+      "js": ["Logic/Buildings/View/ViewBuilding.js"]
+    },
+    {
+      "matches": [
+        "https://blackdragon.mobi/buildings/view/*/action=keep_items/*"
+      ],
+      "js": ["Logic/Storage/View/ViewStorage.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/credits/use/id=teleport/*"],
+      "js": ["Logic/Teleport/View/ViewTeleport.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/quests/index/*"],
+      "js": ["Logic/Bosses/View/ViewBosses.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/index/warning/*"],
+      "js": ["Logic/Warning/View/ViewWarning.js"]
+    },
+    {
+      "matches": ["https://blackdragon.mobi/*"],
+      "js": ["Logic/Observer/Observer.js"]
+    }
+  ],
+
+  "permissions": [
+    "storage",
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
+    "alarms"
+  ],
+
+  "background": {
+    "service_worker": "Panel/src/Background/Background.js",
+    "type": "module"
+  },
+  
+  "options_page": "Panel/index.html",
+
+  "host_permissions": ["https://blackdragon.mobi/*"],
+
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "https://blackdragon.mobi/*"
+      ],
+      "resources": [
+        "Audio/notification.mp3"
+      ],
+      "use_dynamic_url": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+    "ghost": "Ghost",
+    "sorceress": "Sorceress",
+    "sylvan_centaur": "Sylvan centaur",
+
+    "air_elemental": "Air elemental",
+    "earth_elemental": "Earth elemental",
+    "fire_elemental": "Fire elemental",
+    "sharpshooter": "Sharpshooter",
+    "water_elemental": "Water elemental",
+    "werewolf": "Werewolf",
+
+    "air_messenger": "Air messenger",
+    "ancient_basilisk": "Ancient basilisk",
+    "dragolich": "Dragolich",
+    "earth_messenger": "Earth messenger",
+    "firebird": "Firebird",
+    "fire_messenger": "Fire messenger",
+    "nightmare": "Nightmare",
+    "water_messenger": "Water messenger",
+
+    "arctic_sharpshooter": "Arctic sharpshooter",
+    "enchanter": "Enchanter",
+    "gorynych": "Gorynych",
+    "hell_steed": "Hell steed",
+    "lava_sharpshooter": "Lava sharpshooter",
+    "phoenix": "Phoenix",
+
+    "blood_dragon": "Blood dragon",
+    "diamond_dragon": "Diamond dragon",
+    "ghost_behemoth": "Ghost behemoth",
+    "hell_baron": "Hell baron",
+    "hell_hydra": "Hell hydra",
+    "supreme_archangel": "Supreme archangel"
+}

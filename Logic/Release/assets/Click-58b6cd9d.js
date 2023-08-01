@@ -1,0 +1,1 @@
+"use strict";const n=e=>{if(!e)return!1;let t=getComputedStyle(e),l=Math.floor(parseInt(t.width)),o=Math.floor(parseInt(t.height));var r=new MouseEvent("click",{view:window,bubbles:!0,cancelable:!0,clientX:Math.floor(Math.random()*Math.floor(l)),clientY:Math.floor(Math.random()*Math.floor(o))});return e.dispatchEvent(r),!0};exports.click=n;

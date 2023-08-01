@@ -1,0 +1,192 @@
+@import url("https://fonts.cdnfonts.com/css/cascadia-code");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+:root {
+  --main-bg-color: #1f1f1f;
+  --container-bg-color: #181818;
+  --selected-bg-color: #37373d;
+  --hover-bg-color: #2a2d2e;
+  --text-main-color: #c9caca;
+  --text-secondary-color: #8f8f8f;
+
+  --border-primary-color: #333333;
+
+  --color-error: #ff4040;
+  --color-success: #00c853;
+
+  --fontsize: calc(10px + 0.390625vw)
+}
+
+a {
+  color: var(--text-main-color);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: "Cascadia Code", sans-serif;
+  color: var(--text-main-color);
+  border-color: var(--border-primary-color);
+  box-sizing: border-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.text-main {
+  color: var(--text-main-color);
+}
+
+.container {
+  background-color: var(--container-bg-color);
+}
+
+@media (hover: hover) {
+  .hoverable:hover:not(.disabled) {
+    background-color: var(--hover-bg-color);
+  }  
+}
+
+.disabled {
+  cursor: default;
+  color: var(--text-secondary-color);
+  background-color: var(--selected-bg-color);
+  pointer-events: none;
+}
+
+.border-main {
+  border-color: var(--selected-bg-color);
+}
+
+.border-error {
+  border-color: var(--color-error);
+}
+
+.border-success {
+  border-color: var(--color-success);
+}
+
+.color-error {
+  color: var(--color-error);
+}
+
+.color-success {
+  color: var(--color-success);
+}
+
+.btn-submit {
+  width: fit-content;
+  cursor: pointer;
+  background-color: var(--container-bg-color);
+}
+
+.btn-submit:hover {
+  background-color: var(--hover-bg-color);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.stretch {
+  width: 100%;
+}
+
+.unselectable {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+select:invalid {
+  color: gray;
+}
+
+.category {
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    font-size: var(--fontsize);
+    border-color: var(--border-primary-color);
+}
+
+@media screen and (min-width: 450px) {
+	.category {
+    --fontsize: calc(7px + 0.390625vw);
+  }
+}
+
+.header {
+  color: #c8a700;
+  border-color: var(--border-primary-color);
+}
+
+.toggle {
+  border-color: var(--border-primary-color);
+}
+
+.active{
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.filter-element {
+  border-color: var(--border-primary-color);
+}
+
+.border-div {
+  width: 1px;
+  height: 75%;
+  background-color: #333;
+  position: relative;
+}
+
+input[type=text],input[type="number"],input[type="password"]{
+  background-color: transparent;
+  color: var(--text-main-color);
+}
+
+input[type=text]:focus,input[type="number"]:focus,input[type="password"]:focus{
+  outline: none;
+  background-color: #333;
+}
+
+.border-primary {
+  border-color: var(--border-primary-color);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--text-main-color);
+}
+
+.dropdown-filter {
+  color: var(--text-main-color);
+  background-color: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input[type=text]::placeholder,input[type=password]::placeholder{
+  color: var(--text-secondary-color)
+}
+
+.overflow-dots {
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

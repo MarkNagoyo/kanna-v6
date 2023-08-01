@@ -1,0 +1,1 @@
+import{g as t,a as n}from"./getElementByXpath-3b38d01d.js";const c=async()=>{const s=await t("masterkey"),o=await t("storage.status"),e=await t("storage.ready"),a=await t("storage.location");s&&o&&a&&e&&n(`//a[contains(text(), '${a}')]`).click()};c();

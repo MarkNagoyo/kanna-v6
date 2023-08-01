@@ -1,0 +1,62 @@
+{
+    "everything": "All Items",
+
+    "Magic scroll": "Magic Scroll of...",
+    "'s Magic scroll": "Titled Magic Scrolls",
+
+    "Rune ": "All Runes",
+
+    "Level ": "All Gems",
+    "Level 4": "Level 4 Gems",
+    "Level 5": "Level 5 Gems",
+
+    "Amethyst (Level": "Amethyst",
+    "Diamond (Level": "Diamond",
+    "Emerald (Level": "Emerald",
+    "Ruby (Level": "Ruby",
+    "Saphire (Level": "Saphire",
+    "Skull (Level": "Skull",
+    "Topaz (Level": "Topaz",
+
+    "Charm of ": "All Charms",
+    "Charm of Chaac": "Charm of Chaac",
+    "Charm of Gaia": "Charm of Gaia",
+    "Charm of Naraka": "Charm of Naraka",
+
+    "Jewel of ": "All Jewels",
+    "Jewel of Armor": "Jewel of Armor",
+    "Jewel of Damage": "Jewel of Damage",
+    "Jewel of Dexterity": "Jewel of Dexterity",
+    "Jewel of Endurance": "Jewel of Endurance",
+    "Jewel of Strength": "Jewel of Strength",
+    "Jewel of Wisdom": "Jewel of Wisdom",
+
+    "Elixir of ": "All Elixirs",
+    "Elixir of Armor": "Elixir of Armor",
+    "Elixir of Damage": "Elixir of Damage",
+    "Elixir of Dexterity": "Elixir of Dexterity",
+    "Elixir of Endurance": "Elixir of Endurance",
+    "Elixir of Strength": "Elixir of Strength",
+    "Elixir of Wisdom": "Elixir of Wisdom",
+
+    "(I)": "(I)",
+    "(II)": "(II)",
+    "(III)": "(III)",
+    "(IV)": "(IV)",
+    "(V)": "(V)",
+    "(VI)": "(VI)",
+    "(VII)": "(VII)",
+
+    "Recipe ": "All Recipes",
+
+    "[Uncommon]": "Uncommon Items",
+    "[Rare]": "Rare Items",
+    "[Epic]": "Epic Items",
+    "[Mythic]": "Mythic Items",
+    "[Heroic]": "Heroic Items",
+
+    "Treasure": "Treasure Chests",
+    "Ancient Potion": "Ancient Potions",
+    "Stamina potion": "Stamina Potions",
+    "Antidote potion": "Antidote Potions"
+}

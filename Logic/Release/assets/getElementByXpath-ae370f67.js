@@ -1,0 +1,1 @@
+"use strict";const n=async(t,e)=>(await chrome.storage.local.get(t))[t],a=(t,e)=>document.evaluate(t,e??document,null,XPathResult.FIRST_ORDERED_NODE_TYPE,null).singleNodeValue;exports.getElementByXPath=a;exports.getItemAsync=n;
